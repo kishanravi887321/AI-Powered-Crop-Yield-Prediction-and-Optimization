@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "lint": "eslint .",
+  "start": "serve -s dist"
+},
   "dependencies": {
     "chart.js": "^4.5.0",
     "dotenv": "^17.2.1",
@@ -28,6 +29,7 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
     "postcss": "^8.5.6",
+    "serve": "^14.2.4",
     "tailwindcss": "^4.1.12",
     "vite": "^7.1.2"
   }
